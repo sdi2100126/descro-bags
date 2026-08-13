@@ -2,6 +2,8 @@ import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Fraunces, Inter } from 'next/font/google'
 import './globals.css'
+import { ProductModalProvider } from '@/lib/product-modal-context'
+import { QuickViewModal } from '@/components/quick-view-modal'
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -33,7 +35,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`bg-background ${fraunces.variable} ${inter.variable}`}>
       <body className="antialiased">
-        {children}
+        <ProductModalProvider>
+          {children}
+          <QuickViewModal />
+        </ProductModalProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
