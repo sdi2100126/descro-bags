@@ -3,27 +3,27 @@ import { FadeIn } from '@/components/fade-in'
 
 const posts = [
   {
-    image: '/images/insta-1.png',
+    image: '/images/insta-1.webp',
     alt: 'Flat lay of cream and blush cotton yarn skeins with a wooden crochet hook',
   },
   {
-    image: '/images/insta-2.png',
+    image: '/images/insta-2.webp',
     alt: 'Crochet bag wrapped in tissue paper with a sage ribbon and kraft tag',
   },
   {
-    image: '/images/insta-3.png',
+    image: '/images/insta-3.webp',
     alt: 'Morning coffee beside a blush pink crochet bag on a linen bedspread',
   },
   {
-    image: '/images/gallery-2.png',
+    image: '/images/gallery-2.webp',
     alt: 'Hands crocheting with cream cotton yarn at a linen-covered table',
   },
   {
-    image: '/images/gallery-4.png',
+    image: '/images/gallery-4.webp',
     alt: 'Macro detail of blush pink crochet stitches in warm light',
   },
   {
-    image: '/images/bag-bucket.png',
+    image: '/images/bag-bucket.webp',
     alt: 'Sage green crochet bucket bag hanging against a warm cream wall',
   },
 ]

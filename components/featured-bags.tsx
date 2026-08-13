@@ -6,25 +6,25 @@ const bags = [
   {
     name: 'The Ivory Tote',
     price: '$148',
-    image: '/images/bag-tote.png',
+    image: '/images/bag-tote.webp',
     alt: 'Handmade cream crochet tote bag with wooden handles on warm beige linen',
   },
   {
     name: 'The Blush Carry',
     price: '$132',
-    image: '/images/bag-shoulder.png',
+    image: '/images/bag-shoulder.webp',
     alt: 'Handmade blush pink crochet shoulder bag on a cream stone pedestal',
   },
   {
     name: 'The Sage Bucket',
     price: '$156',
-    image: '/images/bag-bucket.png',
+    image: '/images/bag-bucket.webp',
     alt: 'Handmade sage green crochet bucket bag hanging on a wooden hook',
   },
   {
     name: 'The Cocoa Mini',
     price: '$118',
-    image: '/images/bag-mini.png',
+    image: '/images/bag-mini.webp',
     alt: 'Small handmade warm brown crochet mini bag with a golden chain strap',
   },
 ]

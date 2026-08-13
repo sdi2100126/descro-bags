@@ -17,7 +17,7 @@ export function Gallery() {
           <FadeIn className="col-span-2 row-span-2 md:col-span-2">
             <div className="relative h-full min-h-72 overflow-hidden rounded-3xl shadow-sm md:min-h-[36rem]">
               <Image
-                src="/images/gallery-1.png"
+                src="/images/gallery-1.webp"
                 alt="Warm-toned portrait of a woman in a beige knit sweater holding a cream crochet bag"
                 fill
                 className="object-cover"
@@ -28,7 +28,7 @@ export function Gallery() {
           <FadeIn className="col-span-2 md:col-span-2" delay={100}>
             <div className="relative aspect-[16/10] overflow-hidden rounded-3xl shadow-sm">
               <Image
-                src="/images/gallery-2.png"
+                src="/images/gallery-2.webp"
                 alt="Close-up of hands crocheting with cream cotton yarn on a linen tablecloth"
                 fill
                 className="object-cover"
@@ -39,7 +39,7 @@ export function Gallery() {
           <FadeIn delay={150}>
             <div className="relative aspect-[3/4] overflow-hidden rounded-3xl shadow-sm">
               <Image
-                src="/images/gallery-3.png"
+                src="/images/gallery-3.webp"
                 alt="Sage green crochet bag on a wooden cafe chair beside dried flowers in warm sunlight"
                 fill
                 className="object-cover"
@@ -50,7 +50,7 @@ export function Gallery() {
           <FadeIn delay={200}>
             <div className="relative aspect-[3/4] overflow-hidden rounded-3xl shadow-sm">
               <Image
-                src="/images/gallery-5.png"
+                src="/images/gallery-5.webp"
                 alt="Woman carrying a warm brown crochet bag against a sunlit cream stucco wall"
                 fill
                 className="object-cover"
@@ -61,7 +61,7 @@ export function Gallery() {
           <FadeIn className="col-span-2 md:col-span-4" delay={250}>
             <div className="relative aspect-[16/9] overflow-hidden rounded-3xl shadow-sm md:aspect-[21/7]">
               <Image
-                src="/images/gallery-4.png"
+                src="/images/gallery-4.webp"
                 alt="Macro detail of blush pink crochet stitch texture in soft warm light"
                 fill
                 className="object-cover"

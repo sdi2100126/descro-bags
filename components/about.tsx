@@ -9,7 +9,7 @@ export function About() {
         <FadeIn>
           <div className="relative mx-auto aspect-[4/5] max-w-md overflow-hidden rounded-[2rem] shadow-sm md:max-w-none">
             <Image
-              src="/images/maker.png"
+              src="/images/maker.webp"
               alt="Portrait of the maker in her sunlit studio, surrounded by baskets of yarn, holding a half-finished crochet bag"
               fill
               className="object-cover"

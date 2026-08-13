@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <header className="relative min-h-svh w-full overflow-hidden">
       <Image
-        src="/images/hero.png"
+        src="/images/hero.webp"
         alt="Warm-toned lifestyle photo of a woman carrying a handmade cream crochet tote in golden morning light"
         fill
         priority
