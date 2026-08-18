@@ -17,9 +17,9 @@ Next.js 16 + React 19 + TypeScript + Tailwind CSS 4 site for Descro, a handmade 
 - 2026-08-19: Updated Product type to support real bag designs: added category, sizes array with priceEUR, customization, removed flat price; added getStartingPrice helper; replaced 4 placeholder products with 5 real designs (Amara, Sirena, Mirae, Divina, Cleo) with real size/pricing data; updated FeaturedBags, QuickViewModal, and product page to display sizes/pricing correctly
 - 2026-08-19: Fixed customization note styling on product page and quick view modal (used text-sm text-foreground/70); corrected material copy site-wide from cotton to recycled t-shirt yarn in lib/products.ts, components/faq.tsx, components/process.tsx, components/about.tsx
 - 2026-08-19: Simplified materials copy (removed redundant "handmade"); replaced stacked size/price list with interactive size picker (new components/product-pricing.tsx) used on product page and Quick View modal; added "Sizes available" line in product page Details list
+- 2026-08-19: Added mobile navigation menu to site header: hamburger button toggles dropdown with all nav links (Collection, Gallery, Our Story, Process, Contact) on mobile; desktop nav unchanged
 
 ## Known issues / not yet done
-- Mobile navigation only exposes a "Shop" button; no way to reach Gallery/About/Process/Contact on mobile without scrolling to the footer or using the desktop nav (which is hidden below md breakpoint).
 - Contact form in components/contact.tsx is client-side only and does not actually send form data anywhere.
 - Catalog currently has 5 real bag designs (Amara, Sirena, Mirae, Divina, Cleo) but images are still temporarily reused from the old placeholder set pending real photo selection from public/media/.
 - Descriptions for all products are generic placeholders pending photo-based rewrite.
