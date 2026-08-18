@@ -10,12 +10,12 @@ const navLinks = [
 
 export function SiteHeader() {
   return (
-    <header className="bg-background border-b">
+    <header className="bg-background border-b sticky top-0 z-40">
       <nav
-        className="absolute inset-x-0 top-0 z-10 flex items-center justify-between px-6 py-6 md:px-12"
+        className="flex items-center justify-between px-6 py-6 md:px-12"
         aria-label="Main navigation"
       >
-        <Link href="/" className="font-serif text-2xl tracking-wide text-background">
+        <Link href="/" className="font-serif text-2xl tracking-wide text-foreground">
           Descro
         </Link>
         <ul className="hidden items-center gap-8 md:flex">
@@ -23,7 +23,7 @@ export function SiteHeader() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm tracking-wide text-background/90 transition-colors hover:text-background"
+                className="text-sm tracking-wide text-foreground/90 transition-colors hover:text-foreground"
               >
                 {link.label}
               </a>

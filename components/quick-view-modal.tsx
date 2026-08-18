@@ -50,7 +50,7 @@ export function QuickViewModal() {
                 )}
               </div>
 
-              <Link href={`/shop/${openProduct.id}`} className="mt-6 inline-block rounded-2xl bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors">
+              <Link href={`/shop/${openProduct.id}`} onClick={closeModal} className="mt-6 inline-block rounded-2xl bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors">
                 View Full Product
               </Link>
             </div>
