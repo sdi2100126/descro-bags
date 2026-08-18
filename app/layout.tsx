@@ -4,6 +4,7 @@ import { Fraunces, Inter } from 'next/font/google'
 import './globals.css'
 import { ProductModalProvider } from '@/lib/product-modal-context'
 import { QuickViewModal } from '@/components/quick-view-modal'
+import { SiteHeader } from '@/components/site-header'
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -36,6 +37,7 @@ export default function RootLayout({
     <html lang="en" className={`bg-background ${fraunces.variable} ${inter.variable}`}>
       <body className="antialiased">
         <ProductModalProvider>
+          <SiteHeader />
           {children}
           <QuickViewModal />
         </ProductModalProvider>

@@ -93,7 +93,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         <section className="bg-card py-12">
           <div className="mx-auto max-w-7xl">
             <h2 className="mb-6 text-center text-2xl font-serif">More Views</h2>
-            <div className="gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {product.additionalImages.map((img, index) => (
                 <div key={index} className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
