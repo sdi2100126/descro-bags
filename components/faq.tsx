@@ -14,7 +14,7 @@ const faqs = [
   {
     question: 'What materials do you use?',
     answer:
-      'We work primarily with natural, OEKO-TEX certified cotton yarns, chosen for their softness and durability. Handles and hardware are solid wood or brass — never plastic.',
+      'We work primarily with recycled t-shirt yarn (upcycled fabric), chosen for its texture and durability. Handles and hardware are solid wood or brass — never plastic.',
   },
   {
     question: 'How do I care for my crochet bag?',

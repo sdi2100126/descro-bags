@@ -36,7 +36,7 @@ export function About() {
             </p>
             <p>
               {
-                "Each bag takes between twelve and twenty hours to complete. I choose every skein of cotton by hand, work in small batches, and never rush a stitch. When a Descro bag leaves my studio, it carries a little of that quiet with it."
+                "Each bag takes between twelve and twenty hours to complete. I choose every piece of recycled t-shirt yarn by hand, work in small batches, and never rush a stitch. When a Descro bag leaves my studio, it carries a little of that quiet with it."
               }
             </p>
           </div>

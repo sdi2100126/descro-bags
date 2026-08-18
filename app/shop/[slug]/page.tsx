@@ -52,7 +52,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 </p>
               ))}
               {product.customization && (
-                <p className="text-2xl text-primary">
+                <p className="mt-2 text-sm text-foreground/70">
                   {product.customization.note}
                 </p>
               )}

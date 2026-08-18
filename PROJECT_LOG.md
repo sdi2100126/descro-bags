@@ -15,6 +15,7 @@ Next.js 16 + React 19 + TypeScript + Tailwind CSS 4 site for Descro, a handmade 
 - 2026-08-14: Cleanup: removed backup file app/shop/[slug]/page.tsx.backup, added *.tsbuildinfo to .gitignore, removed tsconfig.tsbuildinfo from git tracking
 - 2026-08-14: Fixed nav links to use absolute paths with leading slash (e.g., /#collection) for cross-page scrolling
 - 2026-08-19: Updated Product type to support real bag designs: added category, sizes array with priceEUR, customization, removed flat price; added getStartingPrice helper; replaced 4 placeholder products with 5 real designs (Amara, Sirena, Mirae, Divina, Cleo) with real size/pricing data; updated FeaturedBags, QuickViewModal, and product page to display sizes/pricing correctly
+- 2026-08-19: Fixed customization note styling on product page and quick view modal (used text-sm text-foreground/70); corrected material copy site-wide from cotton to recycled t-shirt yarn in lib/products.ts, components/faq.tsx, components/process.tsx, components/about.tsx
 
 ## Known issues / not yet done
 - Mobile navigation only exposes a "Shop" button; no way to reach Gallery/About/Process/Contact on mobile without scrolling to the footer or using the desktop nav (which is hidden below md breakpoint).

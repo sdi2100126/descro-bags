@@ -6,7 +6,7 @@ const steps = [
     number: '01',
     title: 'Sourcing the yarn',
     description:
-      'Natural cotton yarns chosen by hand for softness, strength, and warm, muted colour.',
+      'Recycled t-shirt yarn (upcycled fabric) chosen by hand for texture, strength, and warm, muted colour.',
   },
   {
     number: '02',

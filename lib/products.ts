@@ -37,7 +37,7 @@ export const products: Product[] = [
     ],
     customization: customizationNote,
     colors: undefined,
-    materials: '100% natural cotton yarn, handmade',
+    materials: 'Recycled t-shirt yarn (upcycled fabric), handmade',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
     mainImage: '/images/bag-tote.webp', // TEMPORARY: pending real photo selection from public/media/
@@ -59,7 +59,7 @@ export const products: Product[] = [
     ],
     customization: customizationNote,
     colors: undefined,
-    materials: '100% natural cotton yarn, handmade',
+    materials: 'Recycled t-shirt yarn (upcycled fabric), handmade',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
     mainImage: '/images/bag-shoulder.webp', // TEMPORARY
@@ -80,7 +80,7 @@ export const products: Product[] = [
     ],
     customization: customizationNote,
     colors: undefined,
-    materials: '100% natural cotton yarn, handmade',
+    materials: 'Recycled t-shirt yarn (upcycled fabric), handmade',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
     mainImage: '/images/bag-bucket.webp', // TEMPORARY
@@ -101,7 +101,7 @@ export const products: Product[] = [
     ],
     customization: customizationNote,
     colors: undefined,
-    materials: '100% natural cotton yarn, handmade',
+    materials: 'Recycled t-shirt yarn (upcycled fabric), handmade',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
     mainImage: '/images/bag-mini.webp', // TEMPORARY
@@ -122,7 +122,7 @@ export const products: Product[] = [
     ],
     customization: customizationNote,
     colors: undefined,
-    materials: '100% natural cotton yarn, handmade',
+    materials: 'Recycled t-shirt yarn (upcycled fabric), handmade',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
     mainImage: '/images/bag-tote.webp', // TEMPORARY (reusing)
