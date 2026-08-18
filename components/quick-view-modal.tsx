@@ -3,6 +3,7 @@
 import { useProductModal } from '@/lib/product-modal-context'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ProductPricing } from '@/components/product-pricing'
 
 export function QuickViewModal() {
   const { openProduct, closeModal } = useProductModal()
@@ -35,16 +36,7 @@ export function QuickViewModal() {
             {/* Details */}
             <div className="space-y-4">
               <h2 className="text-2xl font-serif">{openProduct.name}</h2>
-              {openProduct.sizes.map((size, index) => (
-                <p key={index} className="text-sm text-foreground/70">
-                  {size.label} — €{size.priceEUR}
-                </p>
-              ))}
-              {openProduct.customization && (
-                <p className="text-sm text-foreground/70">
-                  {openProduct.customization.note}
-                </p>
-              )}
+              <ProductPricing sizes={openProduct.sizes} customization={openProduct.customization} />
               <p className="text-foreground/80">{openProduct.shortDescription}</p>
 
               <div className="space-y-2">

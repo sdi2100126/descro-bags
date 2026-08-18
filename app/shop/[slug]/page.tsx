@@ -3,6 +3,7 @@ import { Eyebrow } from '@/components/eyebrow'
 import { FadeIn } from '@/components/fade-in'
 import { getProductBySlug } from '@/lib/products'
 import Link from 'next/link'
+import { ProductPricing } from '@/components/product-pricing'
 
 export const generateStaticParams = async () => {
   const { products } = await import('@/lib/products')
@@ -46,16 +47,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             {/* Details */}
             <div className="space-y-6">
               <h1 className="text-3xl font-serif">{product.name}</h1>
-              {product.sizes.map((size, index) => (
-                <p key={index} className="text-2xl text-primary">
-                  {size.label} — €{size.priceEUR}
-                </p>
-              ))}
-              {product.customization && (
-                <p className="mt-2 text-sm text-foreground/70">
-                  {product.customization.note}
-                </p>
-              )}
+              <ProductPricing sizes={product.sizes} customization={product.customization} />
               <p className="text-foreground/80">{product.shortDescription}</p>
 
               {/* Full Description */}
@@ -70,6 +62,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <div className="space-y-2">
                   <p className="text-sm"><span className="font-medium">Materials:</span> {product.materials}</p>
                   <p className="text-sm"><span className="font-medium">Dimensions:</span> {product.dimensions}</p>
+                  <p className="text-sm"><span className="font-medium">Sizes available:</span> {product.sizes.map(s => s.label).join(', ')}</p>
                   <p className="text-sm"><span className="font-medium">Availability:</span> {product.availability}</p>
                   {product.colors?.length && (
                     <>
