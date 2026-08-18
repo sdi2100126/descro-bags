@@ -72,9 +72,9 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
               {/* Call to Action */}
               <div className="mt-8">
-                <a href="#" className="inline-block rounded-2xl bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors">
+                <Link href="/#contact" className="inline-block rounded-2xl bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors">
                   inquire about this piece
-                </a>
+                </Link>
               </div>
 
               {/* Back to Shop Link */}
