@@ -35,7 +35,16 @@ export function QuickViewModal() {
             {/* Details */}
             <div className="space-y-4">
               <h2 className="text-2xl font-serif">{openProduct.name}</h2>
-              <p className="text-lg text-primary">{openProduct.price}</p>
+              {openProduct.sizes.map((size, index) => (
+                <p key={index} className="text-sm text-foreground/70">
+                  {size.label} — €{size.priceEUR}
+                </p>
+              ))}
+              {openProduct.customization && (
+                <p className="text-sm text-foreground/70">
+                  {openProduct.customization.note}
+                </p>
+              )}
               <p className="text-foreground/80">{openProduct.shortDescription}</p>
 
               <div className="space-y-2">

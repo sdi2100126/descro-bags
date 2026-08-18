@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Eyebrow } from '@/components/eyebrow'
 import { FadeIn } from '@/components/fade-in'
 import { useProductModal } from '@/lib/product-modal-context'
-import { products } from '@/lib/products'
+import { products, getStartingPrice } from '@/lib/products'
 
 export function FeaturedBags() {
   const { openModal } = useProductModal();
@@ -42,7 +42,7 @@ export function FeaturedBags() {
                 </div>
                 <div className="mt-5 flex items-baseline justify-between gap-4">
                   <h3 className="font-serif text-xl">{product.name}</h3>
-                  <p className="text-sm text-foreground/70">{product.price}</p>
+                  <p className="text-sm text-foreground/70">{getStartingPrice(product)}</p>
                 </div>
               </article>
             </FadeIn>

@@ -46,7 +46,16 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             {/* Details */}
             <div className="space-y-6">
               <h1 className="text-3xl font-serif">{product.name}</h1>
-              <p className="text-2xl text-primary">{product.price}</p>
+              {product.sizes.map((size, index) => (
+                <p key={index} className="text-2xl text-primary">
+                  {size.label} — €{size.priceEUR}
+                </p>
+              ))}
+              {product.customization && (
+                <p className="text-2xl text-primary">
+                  {product.customization.note}
+                </p>
+              )}
               <p className="text-foreground/80">{product.shortDescription}</p>
 
               {/* Full Description */}
