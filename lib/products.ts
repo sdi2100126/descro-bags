@@ -40,11 +40,10 @@ export const products: Product[] = [
     materials: 'Recycled t-shirt yarn (upcycled fabric)',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
-    mainImage: '/images/bag-tote.webp', // TEMPORARY: pending real photo selection from public/media/
+    mainImage: '/images/amara-main.webp',
     additionalImages: [
-      '/images/bag-tote.webp', // TEMPORARY
-      '/images/gallery-1.webp', // TEMPORARY
-      '/images/gallery-3.webp' // TEMPORARY
+      '/images/amara-main.webp',
+      '/images/amara-2.webp'
     ],
     shortDescription: 'Handmade crochet bag',
     fullDescription: 'Handmade crochet bag – Amara design.'
@@ -62,11 +61,10 @@ export const products: Product[] = [
     materials: 'Recycled t-shirt yarn (upcycled fabric)',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
-    mainImage: '/images/bag-shoulder.webp', // TEMPORARY
+    mainImage: '/images/sirena-main.webp',
     additionalImages: [
-      '/images/bag-shoulder.webp', // TEMPORARY
-      '/images/gallery-2.webp', // TEMPORARY
-      '/images/gallery-4.webp' // TEMPORARY
+      '/images/sirena-main.webp',
+      '/images/sirena-2.webp'
     ],
     shortDescription: 'Handmade crochet bag',
     fullDescription: 'Handmade crochet bag – Sirena design.'
@@ -83,11 +81,11 @@ export const products: Product[] = [
     materials: 'Recycled t-shirt yarn (upcycled fabric)',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
-    mainImage: '/images/bag-bucket.webp', // TEMPORARY
+    mainImage: '/images/mirae-main.webp',
     additionalImages: [
-      '/images/bag-bucket.webp', // TEMPORARY
-      '/images/gallery-5.webp', // TEMPORARY
-      '/images/gallery-2.webp' // TEMPORARY
+      '/images/mirae-main.webp',
+      '/images/mirae-2.webp',
+      '/images/mirae-3.webp'
     ],
     shortDescription: 'Handmade crochet bag',
     fullDescription: 'Handmade crochet bag – Mirae design.'
@@ -104,11 +102,10 @@ export const products: Product[] = [
     materials: 'Recycled t-shirt yarn (upcycled fabric)',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
-    mainImage: '/images/bag-mini.webp', // TEMPORARY
+    mainImage: '/images/divina-main.webp',
     additionalImages: [
-      '/images/bag-mini.webp', // TEMPORARY
-      '/images/insta-1.webp', // TEMPORARY
-      '/images/insta-3.webp' // TEMPORARY
+      '/images/divina-main.webp',
+      '/images/divina-2.webp'
     ],
     shortDescription: 'Handmade crochet bag',
     fullDescription: 'Handmade crochet bag – Divina design.'
@@ -125,14 +122,32 @@ export const products: Product[] = [
     materials: 'Recycled t-shirt yarn (upcycled fabric)',
     dimensions: 'Dimensions coming soon',
     availability: 'in stock',
-    mainImage: '/images/bag-tote.webp', // TEMPORARY (reusing)
+    mainImage: '/images/cleo-main.webp',
     additionalImages: [
-      '/images/bag-tote.webp', // TEMPORARY
-      '/images/gallery-1.webp', // TEMPORARY
-      '/images/gallery-3.webp' // TEMPORARY
+      '/images/cleo-main.webp',
+      '/images/cleo-2.webp'
     ],
     shortDescription: 'Handmade crochet bag',
     fullDescription: 'Handmade crochet bag – Cleo design.'
+  },
+  {
+    id: 'airpod-case',
+    name: 'AirPod Case',
+    category: 'accessory',
+    sizes: [
+      { label: 'One-size', priceEUR: 20 }
+    ],
+    customization: customizationNote,
+    colors: undefined,
+    materials: 'Recycled t-shirt yarn (upcycled fabric)',
+    dimensions: 'Dimensions coming soon',
+    availability: 'in stock',
+    mainImage: '/images/airpod-case-main.webp',
+    additionalImages: [
+      '/images/airpod-case-main.webp'
+    ],
+    shortDescription: 'Small crochet pouch for AirPods with carabiner clip',
+    fullDescription: 'Handmade crochet AirPod case, available in multiple colorways, featuring a secure carabiner clip for easy attachment.'
   }
 ];
 

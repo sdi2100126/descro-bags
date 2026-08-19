@@ -18,15 +18,15 @@ Next.js 16 + React 19 + TypeScript + Tailwind CSS 4 site for Descro, a handmade 
 - 2026-08-19: Fixed customization note styling on product page and quick view modal (used text-sm text-foreground/70); corrected material copy site-wide from cotton to recycled t-shirt yarn in lib/products.ts, components/faq.tsx, components/process.tsx, components/about.tsx
 - 2026-08-19: Simplified materials copy (removed redundant "handmade"); replaced stacked size/price list with interactive size picker (new components/product-pricing.tsx) used on product page and Quick View modal; added "Sizes available" line in product page Details list
 - 2026-08-19: Added mobile navigation menu to site header: hamburger button toggles dropdown with all nav links (Collection, Gallery, Our Story, Process, Contact) on mobile; desktop nav unchanged
+- 2026-08-19: Converted and placed real photos for all 5 bag designs and AirPod case; wired new images into lib/products.ts; added AirPod case product with placeholder price €20 (needs confirmation); moved image reuse and description placeholder notes to Completed (descriptions remain pending photo-based rewrite)
 
 ## Known issues / not yet done
 - Contact form in components/contact.tsx is client-side only and does not actually send form data anywhere.
-- Catalog currently has 5 real bag designs (Amara, Sirena, Mirae, Divina, Cleo) but images are still temporarily reused from the old placeholder set pending real photo selection from public/media/.
-- Descriptions for all products are generic placeholders pending photo-based rewrite.
 - Dimensions and per-design materials still need to be added (currently using placeholders).
 - next.config.mjs still has:
   - typescript.ignoreBuildErrors: true ( TypeScript errors are ignored during build)
   - images.unoptimized: true ( Next.js image optimization is disabled, serving original images)
+- AirPod case price (€20) is a placeholder pending confirmation
 
 ## How to use this file
 Read this file first before making changes to understand the current state of the project.
